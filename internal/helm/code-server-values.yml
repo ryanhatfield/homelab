@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/nicholaswilde/helm-charts/main/charts/common/values.schema.json
+
+ingress:
+  enabled: true
+  hosts:
+    - host: code.hatfield.io
+      paths:
+        - path: /
+          pathType: Prefix
+
+service:
+  enabled: true
+  type: LoadBalancer
+
+env:
+  PROXY_DOMAIN: code.hatfield.io

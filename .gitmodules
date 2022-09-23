@@ -1,0 +1,6 @@
+[submodule "k3s/launchpad"]
+path = k3s/launchpad
+url = git@github.com:techno-tim/launchpad.git
+[submodule "k3s/k3s-ansible"]
+	path = k3s/k3s-ansible
+	url = git@github.com:ryanhatfield/k3s-ansible.git
